@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            border: 1px solid black;
+         grid-template-columns: repeat(3,1fr);
+         grid-template-rows:repeat(4,1fr);
+ 
+        }
+       
+      
+        
+        .item1{
+          padding: 50px;
+            font-size: 1.5em;
+       grid-column: 1/2;
+       grid-row:2/3;
+
+     
+   
+        }
+        .item2{
+          /* grid-column: 1/2; */
+          grid-row: 3/4;
+          padding: 50px;
+        
+            font-size: 1.1em;
+         
+        }
+        .item3{
+            grid-row: 4/5;
+            
+            padding: 50px;
+      color: white;
+        }
+        .item4{
+            grid-column: 2/3;
+     grid-row:1/7;
+
+
+        }
+        .item4 img{
+            height: 100vh;
+            width:900px;
+            margin: 20px;
+            margin-right: 0px;
+        }
+        .item5{
+            background-color: yellow;
+            grid-row: 1/7;
+            grid-column: 3/3;
+           margin: 20px;
+           margin-left: 0px;
+        }
+        button{
+            background-color: black;
+            color: white;
+            font-size: 1.3em;
+            width:200px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item item1"><h1>Healthy Food</h1></div>
+    <div class="item item2"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit sapiente officiis itaque aliquid repudiandae dolore soluta impedit cumque, eius veritatis ducimus voluptas adipisci magni animi nihil aut ullam culpa distinctio provident ratione. Aut culpa quam autem sint! Libero blanditiis laborum necessitatibus maiores culpa soluta non dignissimos aliquam ullam unde?
+
+    </p></div>
+    <div class="item item3"><button>Read More</button></div>
+    <div class="item item4"><img src="veg1.jpg"></div>
+<div class="item item5"></div>
+    </div>
+</body>
+</html>
